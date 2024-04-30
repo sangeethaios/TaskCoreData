@@ -6,3 +6,14 @@
 //
 
 import Foundation
+import UIKit
+
+struct UserDatas: Codable {
+    let _id: String
+    let name: String
+    let gender: String
+    let email: String
+    let mobile: String
+}
+
+
